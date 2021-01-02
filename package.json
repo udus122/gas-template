@@ -1,0 +1,23 @@
+{
+  "name": "gas-template",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/yudai1202/gas-template",
+  "author": "yudai1202 <u.yudai1202@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src --fix src/**/*ts",
+    "deploy": "yarn lint:fix && clasp push",
+    "build": "rm -rf ./dist && tsc",
+    "open": "clasp open"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.20",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.2.1"
+  }
+}
