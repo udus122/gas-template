@@ -3,15 +3,14 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:prettier/recommended",
+    "prettier",
     "prettier/@typescript-eslint",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript"
   ],
   "plugins": [
-    "@typescript-eslint",
-    "react"
+    "@typescript-eslint"
   ],
   "parser": "@typescript-eslint/parser",
   "env": { "browser": true, "node": true, "es6": true },
@@ -48,8 +47,6 @@
           "match": true
         }
       }
-    ],
-    "react/jsx-uses-react": "error",   
-    "react/jsx-uses-vars": "error"
+    ]
   }
 }
