@@ -1,5 +1,6 @@
+import { getDayFormat } from './utils';
+
 import Spreadsheet = GoogleAppsScript.Spreadsheet.Spreadsheet;
-import { getDayFormat } from './util';
 
 export class SheetService {
   static createInitialFile(prefix: string): Spreadsheet {

@@ -1,0 +1,1 @@
+export { getDayFormat } from './util';
