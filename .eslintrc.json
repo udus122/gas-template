@@ -3,11 +3,11 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "prettier",
-    "prettier/@typescript-eslint",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "prettier",
+    "prettier/@typescript-eslint"
   ],
   "plugins": [
     "@typescript-eslint"
